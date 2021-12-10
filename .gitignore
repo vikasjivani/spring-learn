@@ -1,37 +1,90 @@
-HELP.md
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@vji-axelor 
+vji-axelor
+/
+axelor-demo
+Public
+forked from axelor/open-platform-demo
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+axelor-demo/.gitignore
+
+admin Update .gitignore
+Latest commit 2af961f on 1 Jun 2017
+ History
+ 1 contributor
+49 lines (39 sloc)  406 Bytes
+  
+# Gradle
+build
 .gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+# Eclispe
+bin
 .project
+.classpath
 .settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+.metadata
 
-### IntelliJ IDEA ###
+# Intellij
+out
 .idea
-*.iws
 *.iml
 *.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+*.iws
+*.iml
+atlassian-ide-plugin.xml
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
+# NetBeans
+.nbattrs
+
+# virtual machine crash logs
+hs_err_pid*
+
+# Backup files
+*.sw[nop]
+*~
+.#*
+[#]*#
+
+# dotenv or direnv
+.env
+.envrc
+
+# Miscellaneous
+*.log
+.clover
+.DS_Store
+
+# Profiler and heap dumps
+*.jps
+*.hprof
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
+# JavaScript
+node_modules
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
